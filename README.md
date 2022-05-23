@@ -5,19 +5,16 @@
 
 To install the required dependencies, we recommend you to install Anaconda and run the following line:
 ```
-conda env create -f conda_requirements.txt
+conda create --name recommender_tut python=3.9
 ```
 This will create a conda environment which you can activate by running
 ```
-conda activate breinstein
+conda activate recommender_tut
 ```
 
-###### Manual Installation
+###### Install the packages
 
-This environment can also be created by following the following lines:
 ```
-conda create -n breinstein python=3.7
-conda activate breinstein
 conda install numpy
 conda install pandas
 conda install seaborn
@@ -27,8 +24,6 @@ conda install -c anaconda scikit-learn
 conda install -c conda-forge jupyterlab
 conda install -c conda-forge matplotlib
 ```
-After this is performed please activate your environment as previously explained.
-
 
 ###### Using an already installed python / jupyter distribution
 
