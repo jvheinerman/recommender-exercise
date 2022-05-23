@@ -18,8 +18,8 @@ conda activate recommender_tut
 conda install numpy
 conda install pandas
 conda install seaborn
-conda install collections
-conda install surprise
+conda install -c conda-forge collections-extended
+conda install -c conda-forge scikit-surprise
 conda install -c anaconda scikit-learn
 conda install -c conda-forge jupyterlab
 conda install -c conda-forge matplotlib
